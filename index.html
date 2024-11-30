@@ -12,7 +12,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css"
     />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
     <nav
@@ -38,10 +38,10 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="https://github.com/joshuabrad03/turbo-octo-palm-tree" target="_blank">Repo</a>
+              <a class="nav-link" href="#">Repo</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="https://validator.nu/?doc=https%3A%2F%2Fjoshuabrad03.github.io%2Fturbo-octo-palm-tree%2F" target="_blank">Nu Validator</a>
+              <a class="nav-link" href="#">Nu Validator</a>
             </li>
           </ul>
         </div>
@@ -50,6 +50,26 @@
     <!-- partial:index.partial.html -->
     <div class="container mt-4">
       <h1 class="mainTitle">UNA Exam Schedule Finder</h1>
+      <div class="mb-3">
+        <label for="enterUNAEmail" class="form-label">Enter UNA Email:</label>
+        <input id="enterUNAEmail" type="email" />
+      </div>
+      <div class="mb-3">
+        <label for="enterLNumber" class="form-label">Enter L Number:</label>
+        <input id="enterLNumber" type="text" />
+      </div>
+      <div class="mb-3">
+        <label for="enterGradDate" class="form-label"
+          >Enter Expected Graduation Date:</label
+        >
+        <input id="enterGradDate" type="date" />
+      </div>
+      <div class="mb-3">
+        <label for="enterFavColor" class="form-label"
+          >For Security Reasons, Enter Favorite Color:</label
+        >
+        <input id="enterFavColor" type="color" />
+      </div>
       <div class="mb-3">
         <label for="classDropdown" class="form-label"
           >Select Your Class Time:</label
@@ -67,6 +87,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.14.1/jquery-ui.min.js"></script>
-    <script src="./script.js"></script>
+    <script src="scripts/script.js"></script>
   </body>
 </html>

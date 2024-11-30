@@ -1,0 +1,13 @@
+.mainTitle {
+  text-align: center;
+  color: #592b8a;
+}
+
+body {
+  background-color: #ffb92a;
+}
+
+.form-label {
+  font-size: 15px;
+  font-weight: bold;
+}
